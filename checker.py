@@ -71,7 +71,7 @@ Format:
 account_number = input("Enter the account number: ")
 
 # Send the API request
-api_url = "https://cekrek.heirro.dev/api/check"
+api_url = "https://netovas.com/api/cekrek/v1/account-inquiry"
 api_params = {
     "accountBank": bank_mapping[bank_name],
     "accountNumber": account_number,
